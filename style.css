@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+
+}
+header{
+    display: flex;
+    background-color:rgb(171, 171, 228);
+    width: 100%;
+    height: 50px;
+    
+}
+.img{
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+}
+.search
+{
+width: 100px;
+color: black;
+margin: 30px 5px 10px 10px; 
+size:60px;
+justify-content: space-between;
+text-align: left;
+padding-left: 10px;
+
+
+}
+header>h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+     position: absolute;
+     top: 5px;
+     left: 550px;
+     bottom: 20px;
+     transform: translate(-50,-50);
+    
+}
+.log{
+text-align: right;
+    
+    color:black; 
+    display: flex;
+    margin-left: 1000px;
+    size: 250px;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+.navbar{
+    justify-content: center;
+    background-color: rgb(171, 171, 228);
+    text-align: center;
+    display: flex;
+    height: 50px;
+    
+
+}
+.navbar>ul{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+
+   
+.slider{
+    width:100%;
+    height: 550px;
+    background-color: rgb(69, 45, 206);
+    
+}
+
+.images{
+    width: 400px; 
+    height: 500px;
+    display: flex;
+    
+    transition: all 0.15s ease;
+    
+
+}
+.images img{
+    height: 480px;
+    width: 400px;
+    transition: all 0.15s ease;
+    padding: 0;
+    margin: 5px;
+    justify-content: center;
+}
+
+.slider input{
+    display: none;
+    
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    }
+.dots label
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin: 5px;
+
+}
+.dots label:hover{background: #fff;}
+
+#img1:checked ~ .m1
+{
+    margin-left: -100%;
+}
+#img2:checked ~ .m2
+{
+    margin-left: -200%;
+}
+#img3:checked ~ .m3
+{
+    margin-left: -300%;
+}
+#img4:checked ~ .m4
+{
+    margin-left: -400%;
+}
+.card1
+{
+ width: 425px;
+    height: 400px;
+    background-color:transparent;
+     border-radius: 10px;
+    border: 5px solid transparent;
+    align-content:center;
+    margin-left: 2px;
+}
+.card1 img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.card1 button{
+    border: solid black;
+    background-color: rgb(155, 136, 136);
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    font: 10px arial;
+    
+}
+.items
+ {
+background-color: rgb(69, 45, 206);
+width: 100%;
+height: 800px;
+overflow: hidden;
+
+display: flex ;
+}
+.card2
+{
+ width: 425px;
+    height: 400px;
+    background-color:transparent;
+     border-radius: 10px;
+    border: 5px solid transparent;
+    align-content:center;
+    margin-left: 15px;
+}
+.card2 img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.card2 button{
+    border: solid black;
+    background-color: rgb(155, 136, 136);
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    font: 10px arial;
+    
+}
+.card3
+{
+ width: 425px;
+    height: 400px;
+    background-color:transparent;
+     border-radius: 10px;
+    border: 5px solid transparent;
+    align-content:center;
+    margin-left: 15px;
+    }
+.card3 img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.card3 button{
+    border: solid black;
+    background-color: rgb(155, 136, 136);
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    font: 10px arial;
+    
+}
+.card4
+{
+ width: 425px;
+    height: 400px;
+    background-color:transparent;
+     border-radius: 10px;
+    border: 5px solid transparent;
+    align-content:center;
+    position: absolute;
+    top: 1020px;
+
+
+    
+}
+.card4 img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.card4 button{
+    border: solid black;
+    background-color: rgb(155, 136, 136);
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    font: 10px arial;
+    
+}
+.card5
+{
+ width: 425px;
+    height: 400px;
+    background-color:transparent;
+     border-radius: 10px;
+    border: 5px solid transparent;
+    align-content:center;
+    left: 450px;
+    position: absolute;
+    top: 1020px;
+    
+}
+.card5 img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.card5 button{
+    border: solid black;
+    background-color: rgb(155, 136, 136);
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+    
+    display: flex;
+    font: 10px arial;
+    
+}
+.card6
+{
+ width: 425px;
+    height: 400px;
+    background-color:transparent;
+     border-radius: 10px;
+    border: 5px solid transparent;
+    align-content:center;
+    position: absolute;
+    top: 1020px;
+    left: 900px;
+    
+    
+}
+.card6 img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.card6 button{
+    border: solid black;
+    background-color: rgb(155, 136, 136);
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    font: 10px arial;
+    
+}
+footer
+{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+footer h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+footer h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding-left: 20px;
+    
+}
+footer .c1
+{
+font-size: 12px;
+position: absolute;
+left: 300px;
+top:1475px;
+margin-top: 5px;
+}
+footer .c2
+{
+font-size: 12px;
+position: absolute;
+left: 600px;
+top:1475px;
+margin-top: 5px;
+}footer .c3
+{
+font-size: 12px;
+position: absolute;
+left: 900px;
+top:1475px;
+margin-top: 5px;
+}footer .c4
+{
+font-size: 12px;
+position: absolute;
+left: 1200px;
+top:1475px;
+margin-top: 5px;
+}
+footer .icon
+{
+    position: absolute;
+    top: 1600px;
+    left: 550px;
+    size: 100px;
+    margin: 5px;
+    padding: 5px;
+}
